@@ -13,5 +13,6 @@ describe("fizzbuzz", () => {
   });
   test("other number give the number", () => {
     expect(fizzbuzz(1)).toBe("1");
+    expect(fizzbuzz(2)).toBe("2");
   });
 });
