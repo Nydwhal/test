@@ -6,4 +6,5 @@ export const fizzbuzz = (number: number): string => {
   } else if (number % 5 === 0) {
     return "Buzz";
   }
+  return number.toString();
 };
